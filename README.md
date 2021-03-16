@@ -23,11 +23,11 @@ $ source venv3/bin/activate
 ```
 $ pip3 install flask
 ```
-5. vim을 이용해 파이썬 파일(first_project.py) 생성 및 코드 작성
+5. vim을 이용해 파이썬 파일생성 및 코드 작성
 ```
 $ vim first_project.py
 ```
-6. 포트번호 8899로 파일 실행(python3 first_project.py)
+6. 포트번호 8899로 파일 실행
 ```
 $ python3 first_project.py
 ```
