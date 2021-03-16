@@ -19,7 +19,7 @@ $ mkdir scc_toy && cd scc_toy
 $ virtualenv venv3
 $ source venv3/bin/activate
 ```
-4. python-flask 사용을 위해 pip를 이용해 설치(pip3 install flask)
+4. python-flask 사용을 위해 pip를 이용해 설치
 ```
 $ pip3 install flask
 ```
@@ -36,7 +36,7 @@ $ python3 first_project.py
 192.168.0.10:8899/
 192.168.0.10:8899/text1
 ```
-8. 추가로 flask run 명령어를 통해서도 실행 - 운영환경(default)으로 실행되어 발생하는 Warning 해결(export FLASK_ENV=development - 리눅스)
+8. 추가로 flask run 명령어를 통해서도 실행 - 운영환경(default)으로 실행되어 발생하는 Warning 해결
 ```
 $ export FLASK_ENV=development
 $ flask run
