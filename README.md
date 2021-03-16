@@ -4,7 +4,7 @@
 
 1. ssh를 이용해 우분투(20.04LTS) 서버 접속  
 ```
-> ssh syslet@192.168.0.10
+> ssh USER_NAME@xxx.xxx.xxx.xxx
 ```
 2. python-virtualenv(모듈 버전 충돌을 막기 위해)를 이용하여 가상환경 구축 
 ```
@@ -33,8 +33,8 @@ $ python3 first_project.py
 ```
 7. 크롬을 이용해서 서버 접속(우분투서버 ip:8899 로 접속) - ip:포트/ => 텍스트 , ip:포트/text1 => 태그(1)를 넣은 텍스트 각각 실행
 ```
-192.168.0.10:8899/
-192.168.0.10:8899/text1
+xxx.xxx.xxx.xxx:8899/
+xxx.xxx.xxx.xxx:8899/text1
 ```
 8. 추가로 flask run 명령어를 통해서도 실행 - 운영환경(default)으로 실행되어 발생하는 Warning 해결
 ```
