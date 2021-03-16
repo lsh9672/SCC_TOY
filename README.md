@@ -3,9 +3,9 @@
 * 우분투 서버에서 python 파일 생성 및 실행 (맛보기)
 
 1. ssh를 이용해 우분투(20.04LTS) 서버 접속  
-'''
+```
 print()
-'''
+```
 3. python-virtualenv(모듈 버전 충돌을 막기 위해)를 이용하여 가상환경 구축 및 작업용 디렉토리(scc_toy) 생성 
 4. vim을 이용해 파이썬 파일(first_project.py) 생성
 5. python-flask 사용을 위해 pip를 이용해 설치(pip3 install flask)
